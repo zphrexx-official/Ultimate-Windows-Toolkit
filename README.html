@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ultimate Windows Toolkit</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#0b0f14;
+    color:white;
+    line-height:1.7;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#00c6ff,#00ff99);
+    color:#081014;
+}
+
+header h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:22px;
+}
+
+
+nav{
+    position:sticky;
+    top:0;
+    background:#151b24;
+    padding:18px;
+    text-align:center;
+    z-index:10;
+}
+
+nav a{
+    color:#00eaff;
+    text-decoration:none;
+    margin:12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:white;
+}
+
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+
+.card{
+    background:#161c25;
+    margin:40px 0;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(0,255,255,0.08);
+}
+
+
+h2{
+    margin-bottom:20px;
+}
+
+
+.cyan{
+    color:#00eaff;
+}
+
+.green{
+    color:#00ff99;
+}
+
+.blue{
+    color:#4da6ff;
+}
+
+.orange{
+    color:#ffb347;
+}
+
+.red{
+    color:#ff6666;
+}
+
+.purple{
+    color:#bb86fc;
+}
+
+.yellow{
+    color:#ffe066;
+}
+
+
+ul,ol{
+    margin-left:25px;
+}
+
+
+li{
+    margin:8px 0;
+}
+
+
+.notice{
+    background:#242b36;
+    border-left:5px solid #ffcc00;
+    padding:20px;
+    margin-top:20px;
+}
+
+
+.footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>🔥 Ultimate Windows Toolkit</h1>
+
+<p>Version 1.1</p>
+
+<p>Made by <b>zphrexx-official</b></p>
+
+<p style="margin-top:20px;">
+An all-in-one Windows utility built entirely in Batch.
+</p>
+
+</header>
+
+
+
+<nav>
+
+<a href="#overview">Overview</a>
+<a href="#features">Features</a>
+<a href="#modules">Modules</a>
+<a href="#admin">Admin Menu</a>
+<a href="#requirements">Requirements</a>
+<a href="#projectinfo">Project Info</a>
+
+</nav>
+
+
+
+<div class="container">
+
+
+
+<div class="card" id="overview">
+
+<h2 class="cyan">Overview</h2>
+
+
+<p>
+
+Ultimate Windows Toolkit is a powerful all-in-one Windows utility designed
+to provide fast access to important system tools, maintenance commands,
+network utilities, diagnostics and developer features.
+
+</p>
+
+<br>
+
+
+<p>
+
+The project is created as a lightweight Batch application that works directly
+from a folder without installation.
+
+The toolkit combines many useful Windows functions into one simple interface,
+making everyday computer management easier and faster.
+
+</p>
+
+<br>
+
+
+<p>
+
+From checking hardware information and cleaning temporary files to diagnosing
+network problems and opening advanced Windows tools, everything is available
+through organized menus.
+
+</p>
+
+<br>
+
+
+<p>
+
+Ultimate Windows Toolkit automatically requests Administrator privileges when
+started, allowing access to advanced Windows features.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card" id="features">
+
+
+<h2 class="green">⭐ Main Features</h2>
+
+
+<ul>
+
+<li>Portable Windows utility</li>
+
+<li>No installation required</li>
+
+<li>Administrator mode support</li>
+
+<li>Clean menu-based interface</li>
+
+<li>System maintenance tools</li>
+
+<li>Network troubleshooting tools</li>
+
+<li>Developer utilities</li>
+
+<li>Quick access to Windows features</li>
+
+<li>Hidden Administrator Menu</li>
+
+<li>Fun and experimental features</li>
+
+</ul>
+
+
+</div>
+<div class="card" id="modules">
+
+<h2 class="blue">🧩 Modules</h2>
+
+
+<h3 class="green">🖥 System Tools</h3>
+
+<p>
+System Tools provides access to important Windows management features,
+hardware information and built-in system utilities.
+</p>
+
+<ul>
+
+<li>View detailed PC information</li>
+
+<li>Restart Windows Explorer</li>
+
+<li>Open Control Panel</li>
+
+<li>Open Task Manager</li>
+
+<li>Open Windows Settings</li>
+
+<li>Display GPU information</li>
+
+<li>Create a Battery Report</li>
+
+<li>View Windows version</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 class="orange">🧹 Cleanup Tools</h3>
+
+<p>
+Cleanup Tools helps keep Windows cleaner by removing unnecessary data
+and refreshing important system components.
+</p>
+
+<ul>
+
+<li>Clean temporary files</li>
+
+<li>Empty Recycle Bin</li>
+
+<li>Clear DNS cache</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 class="cyan">🌐 Network Tools</h3>
+
+<p>
+Network Tools contains utilities for checking network configuration,
+testing connections and managing saved network information.
+</p>
+
+<ul>
+
+<li>Show IP Address</li>
+
+<li>Show saved Wi-Fi profiles</li>
+
+<li>Show saved Wi-Fi passwords</li>
+
+<li>Ping Test</li>
+
+<li>Flush DNS cache</li>
+
+<li>Show detailed network information</li>
+
+<li>Open Windows Network Settings</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 class="yellow">🔍 Diagnostics</h3>
+
+<p>
+Diagnostics provides tools for checking Windows health, system status
+and troubleshooting possible problems.
+</p>
+
+<ul>
+
+<li>System File Checker (SFC)</li>
+
+<li>DISM Health Check</li>
+
+<li>View running processes</li>
+
+<li>Startup Programs</li>
+
+<li>Disk Space information</li>
+
+<li>Device Manager</li>
+
+<li>DirectX Diagnostic Tool</li>
+
+<li>Windows Event Viewer</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 class="purple">💻 Developer Tools</h3>
+
+<p>
+Developer Tools provides quick access to programming environments,
+development software and useful developer commands.
+</p>
+
+<ul>
+
+<li>Python Version</li>
+
+<li>Pip Packages</li>
+
+<li>Java Version</li>
+
+<li>Git Version</li>
+
+<li>Open VS Code</li>
+
+<li>Open Current Folder</li>
+
+<li>Create Project Folder</li>
+
+<li>System PATH</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 class="red">⚡ Quick Actions</h3>
+
+<p>
+Quick Actions provides instant access to frequently used Windows actions
+and system controls.
+</p>
+
+<ul>
+
+<li>Restart PC</li>
+
+<li>Shutdown PC</li>
+
+<li>Lock PC</li>
+
+<li>Sleep Mode</li>
+
+<li>Open Task Manager</li>
+
+<li>Open File Explorer</li>
+
+<li>Open Command Prompt</li>
+
+</ul>
+
+
+<br>
+
+
+<h3 style="color:#ff66ff;">🎮 Fun</h3>
+
+<p>
+Fun contains experimental and visual features created for entertainment.
+</p>
+
+<ul>
+
+<li>Matrix Effect</li>
+
+<li>Fake Hacker Screen</li>
+
+<li>Loading Animation</li>
+
+<li>Random Password Generator</li>
+
+<li>Color Test</li>
+
+<li>ASCII Art</li>
+
+</ul>
+
+
+</div>
+
+
+<div class="card" id="admin">
+
+<h2 class="red">🔐 Secret Administrator Menu</h2>
+
+
+<p>
+
+Ultimate Windows Toolkit includes a hidden Administrator Menu with
+advanced functions for experienced users.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+The Administrator Menu is protected and cannot be opened from the normal
+interface.
+
+To access it, a special <b>Administrator Code</b> is required.
+
+</p>
+
+
+<div class="notice">
+
+<b>Important:</b>
+
+<br><br>
+
+The Administrator Code is intentionally not included in this documentation.
+
+Only authorized users who know the code can access the hidden menu.
+
+</div>
+
+
+<br>
+
+
+<h3>Administrator Features:</h3>
+
+
+<ul>
+
+<li>Restart Toolkit</li>
+
+<li>Restart Windows Explorer</li>
+
+<li>Open Command Prompt as Administrator</li>
+
+<li>Open Task Manager</li>
+
+<li>Kill Process - close programs that stopped responding</li>
+
+<li>Create Windows God Mode Folder</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h2 class="green">🚀 How to Use</h2>
+
+
+<ol>
+
+<li>Download Ultimate Windows Toolkit.</li>
+
+<li>Open the project folder.</li>
+
+<li>Run <b>Toolkit.bat</b>.</li>
+
+<li>Allow Administrator permissions.</li>
+
+<li>Select a category from the main menu.</li>
+
+<li>Choose the required tool.</li>
+
+</ol>
+
+
+<br>
+
+
+<p>
+
+No installation is required. The toolkit can run directly from any folder.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card" id="requirements">
+
+
+<h2 class="orange">📋 Requirements</h2>
+
+
+<ul>
+
+<li>Windows 10 or Windows 11</li>
+
+<li>Administrator privileges</li>
+
+<li>Command Prompt support</li>
+
+<li>Basic Windows system access</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card" id="projectinfo">
+
+
+<h2 class="cyan">ℹ️ Project Information</h2>
+
+
+<ul>
+
+<li><b>Name:</b> Ultimate Windows Toolkit</li>
+
+<li><b>Version:</b> 1.1</li>
+
+<li><b>Author:</b> zphrexx-official</li>
+
+<li><b>Language:</b> Batch (.bat)</li>
+
+<li><b>Platform:</b> Windows</li>
+
+<li><b>Status:</b> Active Development</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h2 class="purple">📝 Version History</h2>
+
+
+<h3>Version 1.1</h3>
+
+
+<ul>
+
+<li>Added new toolkit modules</li>
+
+<li>Added Administrator Menu</li>
+
+<li>Improved menu navigation</li>
+
+<li>Added Quick Actions</li>
+
+<li>Expanded Network Tools</li>
+
+<li>Added Fun section</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h2 class="yellow">⚠️ Disclaimer</h2>
+
+
+<p>
+
+Ultimate Windows Toolkit uses built-in Windows commands and utilities.
+
+Some functions require Administrator privileges.
+
+Use advanced features carefully and only on systems you own or have permission to manage.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="footer">
+
+Ultimate Windows Toolkit © 2026
+
+<br>
+
+Made with ❤️ by <b>zphrexx-official</b>
+
+</div>
+
+
+
+</body>
+
+</html>
